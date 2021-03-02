@@ -1,4 +1,6 @@
 package com.example.androiddevchallenge.Models.Response
 
-data class ResponseModel (val message : String,val status : String )
+import kotlin.collections.HashMap
+
+data class ResponseModel (val message : HashMap<String,List<String>>, val status : String )
 
